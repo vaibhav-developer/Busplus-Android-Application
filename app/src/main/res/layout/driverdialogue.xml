@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="290dp"
+        app:cardCornerRadius="15dp"
+        android:padding="5dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="61dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/warning_alert_dialogue"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/antic"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="@string/you_are_not_allowed_to_left_application_while_location_service_is_on"
+                android:textColor="@color/font_color"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/antic"
+                android:textAlignment="center"
+                android:text="@string/given_instructions_is_for_better_performance_of_service_please_follow_the_rules"
+                android:textColor="@color/font_color"
+                android:textSize="14sp"/>
+
+
+
+            <TextView
+                android:id="@+id/txtClose"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="38dp"
+                android:background="@color/app_bg_color"
+                android:fontFamily="@font/antic"
+                android:gravity="center"
+                android:text="@string/close"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1245" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/drawable/bottom_sheet_bg.xml" value="0.1" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/drawable/driver_layout_titlebar_bg.xml" value="0.1245" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/drawable/driver_linear_layout.xml" value="0.153" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/drawable/driver_linear_layout_top.xml" value="0.234" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/drawable/driver_main_bg.xml" value="0.234" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/drawable/dynamic_rv_bg.xml" value="0.2595" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1245" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/drawable/whitecircle.xml" value="0.1" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_background_location.xml" value="0.1" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_dashboard.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_demo_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_driver_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_driver_login.xml" value="0.152" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_driver_start_panel.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_foreground_service.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_fused_driver_dash_board.xml" value="0.10196406184705391" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_login_as.xml" value="0.264" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_user_dashboard.xml" value="0.176" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_user_login.xml" value="0.2" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_user_main_screen.xml" value="0.264" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/activity_user_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/driverdialogue.xml" value="0.264" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/fragment_alert_dialog.xml" value="0.2056434373663959" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/fragment_start_vehicale_data.xml" value="0.264" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/fragment_stop_vehical_data.xml" value="0.264" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/layout/fragment_user_bottom_sheet.xml" value="0.264" />
+        <entry key="..\:/Users/VAIBHAV  PAWAR/BusPlus3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2595" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

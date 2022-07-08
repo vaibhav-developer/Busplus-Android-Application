@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="User.UserLogin"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#fff">
+
+  <ImageView
+      android:layout_width="194dp"
+      android:layout_height="125dp"
+      android:transitionName="anim_Image"
+      android:src="@drawable/parentstudentcollege"
+      android:contentDescription="@string/todo3" />
+
+  <TextView
+      android:id="@+id/UL_Bigtext"
+      android:layout_width="wrap_content"
+      android:layout_height="103dp"
+      android:layout_marginTop="-15dp"
+      android:fontFamily="@font/bungee"
+      android:transitionName="anim_bigText"
+      android:text="@string/hello_there_welcome_back"
+      android:textAlignment="viewStart"
+      android:textColor="@color/font_color"
+      android:textSize="34sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/antic"
+        android:transitionName="anim_smallText"
+        android:text="@string/hi_enter_the_credentials_you_have_receive_from_your_institute"
+        android:textAlignment="viewStart"
+        android:textColor="@color/font_color"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/UL_Username"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/username"
+            android:textColorHint="@color/font_color"
+            android:transitionName="anim_username"
+            app:boxStrokeColor="@color/font_color"
+            app:hintEnabled="true"
+            app:hintTextColor="@color/font_color"
+            app:placeholderTextColor="@color/font_color">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/UL_UsernameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/font_color"
+                android:textColorHint="#757575"
+                tools:ignore="TextContrastCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/UL_Password"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:hint="@string/password"
+            android:textColorHint="@color/font_color"
+            app:boxStrokeColor="@color/font_color"
+            app:counterTextColor="@color/font_color"
+            app:helperTextTextColor="@color/font_color"
+            app:hintEnabled="true"
+            app:hintTextColor="@color/font_color"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/font_color"
+            app:placeholderTextColor="@color/font_color">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/UL_PasswordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/font_color"
+                android:textColorHint="#757575"
+                tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/loginUserRememberMe"
+                style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/font_color"
+                android:fontFamily="@font/antic"
+                android:text="@string/remember_me"
+                android:textColor="@color/font_color"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:fontFamily="@font/antic"
+                android:text="@string/forgot_password"
+                android:textSize="13sp"
+                android:textColor="@color/font_color"
+
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <Button
+            android:id="@+id/UL_BtnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#000"
+            android:text="@string/go"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/UL_newSignUp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:text="@string/new_user_signup"
+            android:textColor="@color/font_color" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <RelativeLayout
+        android:id="@+id/UserloginProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/whitecircle"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:elevation="8dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

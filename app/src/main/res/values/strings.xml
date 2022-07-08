@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BusPlus+</string>
+    <string name="todo">TODO</string>
+    <string name="busplus">BusPlus+</string>
+    <string name="todo1">TODO</string>
+    <string name="best_safety_tool_for_your_child">Best Safety Tool for Your Child </string>
+    <string name="todo3">TODO</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="driver_login">Driver Login</string>
+    <string name="hello_there_welcome_back">Hello There Welcome Back !</string>
+    <string name="hi_enter_the_credentials_you_have_receive_from_your_institute">Hi enter the credentials you have receive from your institute</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">forgot password ?</string>
+    <string name="go">Go</string>
+    <string name="hello_driver_welcome_back">Hello Driver ! Welcome BAck</string>
+    <string name="new_user_signup">New User SignUp</string>
+    <string name="full_name">Full Name</string>
+    <string name="welcome">Welcome !</string>
+    <string name="signup_to_explore_amazing_features_of_busplus">Signup to Explore amazing features of BusPlus+</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account_login">Already have an Account ? Login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="get_location">Get Location</string>
+    <string name="title_activity_user_dashboard">UserDashboard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_bus">Select Bus</string>
+    <string name="enter_bus_id">Enter Bus ID</string>
+    <string name="get_bus_location">Get Bus Location</string>
+    <string name="close">Close</string>
+    <string name="given_instructions_is_for_better_performance_of_service_please_follow_the_rules">Given Instructions is for Better Performance of Service please follow the rules</string>
+    <string name="you_are_not_allowed_to_left_application_while_location_service_is_on">You are not allowed to Left Application while Location service is on !</string>
+
+
+</resources>
