@@ -1,10 +1,12 @@
 # Busplus-Android-Application
-# Track My Location
-This is a simple android app where you can brodcast your location and everyone who has your dynamically generated unique key can track you in near real-time.
 
-I created this project just for learning puposes particularly about firebase (firestore db), google maps api and google location api.
+This is an Android Application Specially Design to Solve problem which are faced by me at my college , " We are not able to track Live location of bus because of it . we always have a fear to miss a bus to college or some time if bus get late we have to wait for a long time on road which is waste of time ! so I decided to Implement this Android Application based service by taking Inspiration from UBER 🚘 ! 
 
-- [Backend (Firebase Cloud Functions)](https://github.com/abdularis/Track-My-Location_Cloud-Functions)
+While developing this project I learned about ! <ul><li>Firebase Database</li><li>google maps api</li><li> google location api</li> <li>Material UI <li/> <li> Local storage - Shared Preference </li>
+	<li> Learned New Concepts of Oop's</li> </ul> 
+
+
+- [Backend (Firebase Cloud Functions)](#)
 
 ***
 ### Screenshots
