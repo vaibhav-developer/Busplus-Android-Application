@@ -2,7 +2,7 @@
 
 This is an Android Application Specially Design to Solve problem which are faced by me at my college , " We are not able to track Live location of bus because of it . we always have a fear to miss a bus to college or some time if bus get late we have to wait for a long time on road which is waste of time ! so I decided to Implement this Android Application based service by taking Inspiration from UBER 🚘 ! 
 
-While developing this project I learned about ! <ul><li>Firebase Database</li><li>google maps api</li><li> google location api</li> <li>Material UI <li/> <li> Local storage - Shared Preference </li>
+While developing this project I learned about ! <ul><li>Firebase Database</li><li>google maps api</li><li> google location api</li> <li>Material UI </li> <li> Local storage - Shared Preference </li>
 	<li> Learned New Concepts of Oop's</li> </ul> 
 
 
