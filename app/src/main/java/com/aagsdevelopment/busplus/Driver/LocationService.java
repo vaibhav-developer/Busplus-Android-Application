@@ -36,7 +36,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.HashMap;
 
 public class LocationService<DriverUsername> extends Service {
-    FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance("https://busplusvaibhav-default-rtdb.asia-southeast1.firebasedatabase.app");
+    FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     DatabaseReference ref = firebaseDatabase.getReference("Abhinav/Drivers");
     String TAG = "LOCATION_UPDATES";
     String DriverUsername;
