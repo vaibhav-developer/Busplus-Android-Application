@@ -10,7 +10,7 @@ While developing this project I learned about ! <ul><li>Firebase Database</li><l
 
 ***
 ### Screenshots
-![](images/screenshots.jpg)
+![](Screenshots/Mockups/DriverDashboard_samsung-galaxy20-pink-portrait.png)
 
 
 ***
