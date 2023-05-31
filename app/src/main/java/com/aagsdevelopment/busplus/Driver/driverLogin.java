@@ -31,7 +31,7 @@ public class driverLogin extends AppCompatActivity {
     RelativeLayout loginProgressBar;
     EditText DLusernameEditText, DlpasswordEditText;
 
-    FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance("https://busplusvaibhav-default-rtdb.asia-southeast1.firebasedatabase.app");
+    FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     DatabaseReference ref=firebaseDatabase.getReference("Abhinav/Drivers");
 
 
