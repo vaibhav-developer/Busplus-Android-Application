@@ -29,7 +29,7 @@ While developing this project I learned about ! <ul><li>Firebase Database</li><l
 ### How it works?
 ![](images/hiw.png)
 
-- First Bus driver will start sharing location of this smartphone with current odometer reading !
+- First Bus driver will start sharing location of his smartphone with current odometer reading !
   ( The Driver device send continous location update from gps, network etc. )
 
 - This location data will get saved in firebase realtime database 
