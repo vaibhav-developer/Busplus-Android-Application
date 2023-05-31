@@ -51,7 +51,7 @@ public class DriverDashboard extends AppCompatActivity implements OnMapReadyCall
     private GoogleMap mMap;
 
     //
-    FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance("https://busplusvaibhav-default-rtdb.asia-southeast1.firebasedatabase.app");
+    FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance("here enter your instance i removed due to privacy concern !");
     DatabaseReference ref = firebaseDatabase.getReference("Abhinav/Drivers");
     private static final int REQUEST_CODE_LOCATION_PERMISSION = 1;
     //    Button btnStartLocationUpdate, btnStopLocationUpdate;
