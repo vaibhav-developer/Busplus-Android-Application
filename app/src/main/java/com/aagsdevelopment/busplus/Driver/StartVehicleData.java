@@ -162,7 +162,7 @@ public class StartVehicleData extends BottomSheetDialogFragment {
         driverEnteredOdometerReading = Integer.parseInt(etBusCurrentReading.getEditText().getText().toString().trim()) ;
         driverEnteredStartingPoint = etStartLocation.getEditText().getText().toString().trim();
 
-        DatabaseReference reference = FirebaseDatabase.getInstance("https://busplusvaibhav-default-rtdb.asia-southeast1.firebasedatabase.app").getReference("Abhinav/Buses");
+        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Abhinav/Buses");
 
         Query checkBusNumber = reference.orderByChild("busnumber").equalTo(driverEnteredBusNumber);
 
