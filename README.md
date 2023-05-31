@@ -29,13 +29,13 @@ While developing this project I learned about ! <ul><li>Firebase Database</li><l
 ### How it works?
 ![](images/hiw.png)
 
-- First Bus drive will start sharing location of this smartphone with current odometer reading !
+- First Bus driver will start sharing location of this smartphone with current odometer reading !
   ( The Driver device send continous location update from gps, network etc. )
 
 - This location data will get saved in firebase realtime database 
   ( Write and update the location data to a specific firebase firestore document )
   
-- Student Module will get Updated from database as the location co-ordinates get changes
+- Student Module ( App ) will get Updated from database as the location co-ordinates get changes
   ( in short  the user device read that firebase firestore document and show the marker in that location )
 
 - As trip ends Driver Turn off location sharing with that he will also enter its latest odometer reading by which me can calculate Fuel       consumtion with distance traveled and total cost for that trip !
